@@ -4,4 +4,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("A view funcionou Wow")
+    return render(request,'index.html')
+
+def perfil(request, usuario):
+    return HttpRespncionou Wow")
